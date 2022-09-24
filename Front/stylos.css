@@ -1,0 +1,66 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ad8cb7;
+
+}
+
+
+
+.form-Registrar Mascota{
+  width: 100px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;  
+  margin-top: 100%;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius:4px;
+    margin-bottom: 10px;
+    border: 2px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 20px;
+
+}
+.form-Registrar Mascota.boton{
+   width: 200%;
+   background: #1f53c5;
+   border: none;
+   padding: 20px;
+   color: white;
+   margin: 20px 0;
+   font-size: 30px;
+}
+p {
+    height: 30px;
+    font-size: 20px;
+}
+div{
+    background-color: lightgrey;
+  width: 300px;
+  border: 10px solid #24303c;
+  padding: 10px;
+  margin: 10px;
+}
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+ td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+ tr:nth-child(even) {
+  background-color: black;
+}
