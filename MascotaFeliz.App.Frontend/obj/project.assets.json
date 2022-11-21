@@ -5743,11 +5743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Mascotas\\MascotaFeliz.App\\Mascotafeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
       "projectName": "MascotaFeliz.App.Frontend",
-      "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
+      "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\Mascotafeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
       "packagesPath": "C:\\Users\\Deimer Amaya\\.nuget\\packages\\",
-      "outputPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Frontend\\obj\\",
+      "outputPath": "C:\\Mascotas\\MascotaFeliz.App\\Mascotafeliz.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Deimer Amaya\\AppData\\Roaming\\NuGet\\NuGet.Config"

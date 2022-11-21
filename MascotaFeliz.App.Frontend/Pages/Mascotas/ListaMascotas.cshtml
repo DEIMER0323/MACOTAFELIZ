@@ -1,0 +1,57 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.ListaMascotasModel
+@{
+}
+<head>
+<style>
+body {
+  background-image: url('https://img.freepik.com/vector-premium/ilustracion-divertidos-dibujos-animados-perros-gatos-lindos-mejores-amigos_112554-246.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+</head>
+
+<h1>Listado de Mascotas</h1>
+<table class="table">
+    <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Color</th>
+            <th>Especie</th>
+            <th>Raza</th>
+            <th>Dueno</th>
+            
+    </tr>
+    @foreach (var mascota in Model.listaMascotas)
+    {   
+        <tr>
+            <td>@mascota.Id</td>
+            <td>@mascota.Nombre</td>       
+            <td>@mascota.Color</td>       
+            <td>@mascota.Especie</td>       
+            <td>@mascota.Raza</td>       
+            <td>@mascota.Dueno</td>       
+        
+
+            <td>
+                    <a class="btn btn-primary table-btn" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
+                        Detalle Mascota
+                    </a> 
+            </td>
+            <td>
+                    <a class="btn btn-primary table-btn" asp-page="./EditarMascotas" asp-route-mascotaId="@mascota.Id">
+                        Editar Mascota
+                    </a> 
+            </td>
+        </tr>
+    }
+
+</table>
+<a class="btn btn-primary table-btn" asp-page="./EditarMascotas" class="btn-default">Adicionar mascota</a>
+
+
+
+
+

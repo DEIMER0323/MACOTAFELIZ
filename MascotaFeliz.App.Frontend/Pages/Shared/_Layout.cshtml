@@ -6,11 +6,26 @@
     <title>@ViewData["Title"] - MascotaFeliz.App</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    
+
 </head>
+
 <body>
+     
     <header>
+       
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
+                <head>
+<style>
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/005/863/122/small/dog-or-cat-footprints-paw-print-dog-footprints-paw-foot-trail-print-on-white-background-free-vector.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
                 <a class="navbar-brand" asp-area="" asp-page="/Index">MascotaFeliz.App.Frontend</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -22,15 +37,13 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy"> Lista dueños</a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy"> Lista mascotas</a>
-                        </li>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Duenos/ListaDuenos">Lista de Dueños</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy"> Lista veterinario</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Mascotas/ListaMascotas">Lista de Mascotas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Veterinarios/ListaVeterinarios">Lista de Veterinarios</a>
                         </li>
                     </ul>
                 </div>
@@ -55,4 +68,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>
